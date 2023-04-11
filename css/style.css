@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+  
+
 body
 {
    background-color: black;
@@ -110,4 +112,61 @@ body
     height: 2px;
     background: linear-gradient(90deg, transparent, #a8a803);
     animation: btn-anim1 2s linear infinite;
+  }
+
+  @media (max-width:800px)
+  {
+    #img-unica
+{
+    height: 100px;
+    margin-left: 10px;
+}
+
+
+    .login-box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 200px;
+      padding: 40px;
+      transform: translate(-50%, -50%);
+      background: rgba(24, 20, 20, 0.987);
+      box-sizing: border-box;
+      box-shadow: 0 15px 25px rgba(0,0,0,.6);
+      border-radius: 10px;
+    }
+
+    .login-box form a {
+      position: relative;
+      display: inline-block;
+      padding: 10px 20px;
+      color: #ffffff;
+      font-size: 8px;
+      text-decoration: none;
+      text-transform: uppercase;
+      overflow: hidden;
+      transition: .5s;
+      margin-top: 40px;
+      letter-spacing: 4px
+    }
+
+    .login-box .user-box input {
+      width: 100%;
+      padding: 10px 0;
+      font-size: 8px;
+      color: #fff;
+      margin-bottom: 30px;
+      border: none;
+      border-bottom: 1px solid #fff;
+      outline: none;
+      background: transparent;
+    }
+
+    div > form > img
+    {
+      height: 100px;
+      margin-left: 10px;
+
+    }
+
   }
