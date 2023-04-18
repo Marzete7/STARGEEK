@@ -13,6 +13,7 @@ h1, p, h2
 body
 {
     background-color: black;
+    min-height: 1480px;
 }
 
 header > img
@@ -64,7 +65,7 @@ background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(244,245,6,0.896883753
 height: 5px;
 }
 
-.div-inicial > h1
+.div-inicial > h2
 {
 
     margin-top: 120px;
@@ -74,12 +75,12 @@ height: 5px;
 
 .div-inicial > p 
 {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .div-inicial > input 
 {
-    margin-top: 10px;
+    margin-top: 15px;
     background-color: black;
     color: white;
     border-radius: 10px;
@@ -155,7 +156,7 @@ height: 5px;
 
 .div-final > p
 {
-    height: 7px;
+    font-size: 10px;
     color: gray;
 }
 
@@ -213,4 +214,39 @@ header > div > a:hover
 }
       
 }
+@media (max-width:800px) 
+{
 
+.div-inicial
+{
+    min-height: 300px;
+}
+
+
+    .div-inicial > input 
+{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+
+    height: 25px;
+    margin-right: 10px;
+}
+
+.div-inicial > a
+{
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: chartreuse;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.div-inicial > h2
+{
+    margin-bottom: 10px;
+}
+
+}
